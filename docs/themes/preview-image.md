@@ -13,6 +13,10 @@ outline: deep
         └── index.html
 ```
 
+## Table of Contents
+
+[[toc]]
+
 The preview image will let the user see a picture of the theme in action before downloading it.
 
 ## File format

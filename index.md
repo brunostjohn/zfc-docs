@@ -15,7 +15,7 @@ hero:
       link: https://github.com/brunostjohn/zefirs-flashy-cooler/releases/latest
     - theme: alt
       text: Documentation
-      link: /docs/introduction
+      link: /docs/getting-started
 
 features:
   - title: Blazingly fucking fast

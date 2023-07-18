@@ -6,6 +6,10 @@ outline: deep
 
 Themes are actually tiny web pages rendered straight to your cooler. If you'd like to learn how to make your own themes, [check out this section of the docs](/docs/themes/what-are-themes.md).
 
+## Table of Contents
+
+[[toc]]
+
 ## Adjusting theme settings
 
 A lot of the themes you'll use will come with their own settings that you can change in the _Now Playing_ tab.

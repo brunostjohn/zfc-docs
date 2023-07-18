@@ -17,6 +17,10 @@ The theme manifest is how you tell the app what your theme is and what it needs 
 
 It's stored as a JSON file. If you don't know what they are yet, feel free to read up on them and come back here.
 
+## Table of Contents
+
+[[toc]]
+
 ## The basics
 
 Let's get started by telling the app some details about your theme.

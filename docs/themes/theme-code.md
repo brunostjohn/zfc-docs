@@ -15,6 +15,10 @@ outline: deep
 
 Now that we have the `theme.json` and `preview.jpeg` ready, let's actually write the theme.
 
+## Table of Contents
+
+[[toc]]
+
 ## Getting started
 
 Let's bootstrap a basic theme template. This will be the content of our `index.html`.
@@ -42,7 +46,7 @@ Teaching HTML and Web Design is beyond the scope of these docs. Here, I'd like t
 
 At some point, your theme may be complex enough so that you need to keep files separated. You can do that here. For example, if you'd like to keep your stylesheet in a separate file, you can do this:
 
-```html {3}
+```html {4}
 <!DOCTYPE html>
 <html>
   <head>
@@ -158,10 +162,11 @@ We'll edit the `theme.json` to this:
       "default": "true"
     },
     {
-      "type": "sensor",
-      "display_as": "Sensor to show",
-      "name": "sensor1"
-    }
+      // [!code ++]
+      "type": "sensor", // [!code ++]
+      "display_as": "Sensor to show", // [!code ++]
+      "name": "sensor1" // [!code ++]
+    } // [!code ++]
   ]
 }
 ```
@@ -209,4 +214,13 @@ Now, let's make the theme display the sensor value and name.
 </html>
 ```
 
-## Theme guidelines and theme store tips
+## Theme guidelines and theme store tips.
+
+To get your theme onto the Theme Store, you need to mind a few important things.
+
+1. Never **ever** try accessing the users' data.
+2. Use a non-confusing versioning system.
+3. Let the user customise as much of the theme as you can.
+4. All your theme's assets need to live locally on the machine.
+
+To submit a theme for inclusion on the Theme Store, submit a pull request on [this GitHub repo](https://github.com/brunostjohn/zefirs-flashy-cooler-themes). Once accepted, your theme will appear on the Theme Store within 1-2 hours.

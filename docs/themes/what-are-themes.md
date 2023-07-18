@@ -6,6 +6,10 @@ outline: deep
 
 In short, themes are webpages with their own HTML, CSS, and JS served by a webserver embedded into the app.
 
+## Table of Contents
+
+[[toc]]
+
 ## What can they do?
 
 Themes can do a whole lot of stuff. Apart from doing almost everything a normal webpage can do, they can also do the following:

@@ -6,6 +6,10 @@ outline: deep
 
 This page will explain how to install the app and get started with themes.
 
+## Table of Contents
+
+[[toc]]
+
 ## What do you need to run this app?
 
 To keep this app from eating up system resources, a few technologies are used that have specific requirements.
