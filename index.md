@@ -29,9 +29,13 @@ features:
     details: We respect your privacy and do our best to not infringe on it. Themes have very limited access to your system and beofre being on the Theme Store, they are vetted to ensure they won't attempt disrespecting your right to privacy.
 ---
 
-<!-- <div class="home-content">
-  <h3 class="header">Why use Zefir's Flashy Cooler?</h3>
-</div> -->
+<div class="home-content">
+  <h3 class="header">What can this app do?</h3>
+  <div class="imgs">
+    <img src="/assets/img/hero.png" id="img1" />
+    <img src="/assets/img/overview-banner.png" id="img2" />
+  </div>
+</div>
 
 <style>
   .home-content {
@@ -45,5 +49,21 @@ features:
     font-weight: 700;
     white-space: pre-wrap;
     text-align: center;
+  }
+
+  .imgs {
+    display: flex;
+    flex-wrap: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  #img1, #img2 {
+    max-width: 40%;
+    align-self: center;
+    border-radius: 15px;
+    margin: 1rem;
   }
 </style>
