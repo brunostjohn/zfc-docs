@@ -59,6 +59,22 @@ export default defineConfig({
                 text: "How do devices work?",
                 link: "/docs/devices/how-do-devices-work.md",
               },
+              {
+                text: "Reverse engineering devices",
+                link: "/docs/devices/reverse-engineering.md",
+              },
+              {
+                text: "Creating the Device struct",
+                link: "/docs/devices/devicecreator.md",
+              },
+              {
+                text: "Sending frames to the device",
+                link: "/docs/devices/device.md",
+              },
+              {
+                text: "Contributing devices",
+                link: "/docs/devices/contributing-devices.md",
+              },
             ],
           },
         ],

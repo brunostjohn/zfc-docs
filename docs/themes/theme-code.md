@@ -222,5 +222,6 @@ To get your theme onto the Theme Store, you need to mind a few important things.
 2. Use a non-confusing versioning system.
 3. Let the user customise as much of the theme as you can.
 4. All your theme's assets need to live locally on the machine.
+5. Remember to follow responsive web design rules in your themes. They should scale between devices of all size because as the app grows, more devices will be added and they may not be square etc.
 
 To submit a theme for inclusion on the Theme Store, submit a pull request on [this GitHub repo](https://github.com/brunostjohn/zefirs-flashy-cooler-themes). Once accepted, your theme will appear on the Theme Store within 1-2 hours.
